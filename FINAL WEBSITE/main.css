@@ -1,0 +1,199 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+/*background*/
+body {
+  background-image: url("http://doc.gold.ac.uk/~jkang005/webdev/individual/images/Music-Pattern-Wallpaper.jpg");
+  background-color: #cccccc;
+	display:grid;
+grid-template-areas: "a b c"
+					 "d d c"
+					 "e e c"
+					 "f g c"
+					 "i j c"
+					 "k l c"
+					 "m m c"
+					 "n o c"
+					 "p q c";
+}
+p{
+	color: aliceblue;
+	font-family: 'Ubuntu','sans-serif';
+}
+/*_______________________________________________________________________*/
+/*index page CSS*/
+/*main text in image position*/
+.home-title{
+  	position: absolute;
+	width: 50%;
+	text-align: center;
+	color: aliceblue;
+	font-family: 'Ubuntu','sans-serif';
+
+}
+	/*responsive to change fontsize and padding	*/
+@media screen and (min-width: 1201px) {
+  .home-title {
+    font-size: 80px;
+	padding-top: 200px;
+	padding-left: 200px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .home-title  {
+    font-size: 40px;
+	padding-left: 125px;
+	padding-top: 125px;
+  }
+}
+
+
+/*image in the background */
+.home-page-image { 
+	width: 1300px;
+	height: auto;
+	display: block;
+	padding-left: 1%;
+}
+/*navigayion styling*/
+a:link {
+  	text-decoration: none;
+	color: aliceblue;
+}
+
+a:visited {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+/* navigation location*/
+.navigation{
+	/*	color*/
+	color: aliceblue;
+	/*	possition config*/
+	padding-top: 50%;
+	grid-area: c;
+	/*font*/
+	font-family: 'Ubuntu','sans-serif';
+	padding-left: 15%;
+	text-align: left;
+	background: transparent;	
+}
+
+/* link hover animation*/
+.link-url-list:hover{
+	border:none;
+	text-decoration-line: underline;
+	
+}
+	/*responsive to change fontsize and padding in navigation	
+@media screen and (min-width: 1264px) {
+	/* navigation url */
+	.link-url-list{
+		font-size: 40px;
+	}
+
+	/*social url*/
+	.nav-social{
+		font-size: 30px;
+	}
+	.navigation{
+		font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 1263px) {
+	/* navigation url */
+	.link-url-list{
+		font-size: 20px;
+	}
+
+	/*social url*/
+	.nav-social{
+		font-size: 15px;	
+	}
+	.navigation{
+	font-size: 30px;
+	}
+}
+/*_______________________________________________________________________*/
+/*About me CSSs*/
+.title{
+	font-family: 'Ubuntu','sans-serif';
+  	position: absolute;
+	width: 50%;
+	text-align: left;
+	color: aliceblue;
+	font-size:50px;
+}
+
+.aboutDiv{
+	padding-top: 200px;
+	width:560px;
+	height:315px;
+	font-family: 'Ubuntu','sans-serif';
+	color: aliceblue;
+	text-align: left;
+}
+
+.personalstatement{
+	font-family: 'Ubuntu','sans-serif';
+	color: aliceblue;
+}
+.grammy{
+	padding-top: 0px;
+	font-family: 'Ubuntu','sans-serif';
+	color: aliceblue;
+	width:560px;
+	height:315px;
+}
+
+.workExperience{
+	font-family: 'Ubuntu','sans-serif';
+	color: aliceblue;
+	border-style: solid;
+	border-color:aliceblue ;
+}
+
+.education{
+	font-family: 'Ubuntu','sans-serif';
+	color: aliceblue;
+	border-style: solid;
+	border-color:aliceblue ;
+}
+
+.skills{
+	font-family: 'Ubuntu','sans-serif';
+	color: aliceblue;
+	border-style: solid;
+	border-color:aliceblue ;
+}
+.activities{
+	font-family: 'Ubuntu','sans-serif';
+	color: aliceblue;
+	border-style: solid;
+	border-color:aliceblue ;
+}
+
+/*_______________________________________________________________________*/
+/*Showcases*/
+.title{
+	font-family: 'Ubuntu','sans-serif';
+  	position: absolute;
+	width: 50%;
+	text-align: left;
+	color: aliceblue;
+	font-size:50px;
+}
+
+.videoPadding{
+	padding-top: 200px;
+}
+
+
+
+
